@@ -1,0 +1,31 @@
+# Hệ thống tự động hóa video 24/7 (Auto Video Pipeline)
+# Thư viện cho Python 3.11+
+
+# Cấu hình & Môi trường
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Logging chuyên nghiệp
+loguru>=0.7.2
+
+# Lập lịch chạy tự động 24/7
+APScheduler>=3.10.4
+
+# Tải video & RSS
+yt-dlp>=2024.3.10
+feedparser>=6.0.11
+
+# Xử lý âm thanh & Video
+faster-whisper>=1.0.0
+edge-tts>=6.1.10
+opencv-python-headless>=4.9.0.80
+
+# Gọi API AI (DeepSeek & Google Gemini)
+requests>=2.31.0
+google-genai>=0.1.1
+google-generativeai>=0.8.0
+
+# Tiện ích mạng & retry
+tenacity>=8.2.3
+urllib3>=2.2.0

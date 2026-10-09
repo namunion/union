@@ -1,0 +1,7 @@
+{
+  "name": "Auto Video Pipeline 24/7",
+  "description": "Hệ thống tự động hóa tìm video, phân tích, viết lại kịch bản, lồng tiếng và tự động đăng Facebook 24/7 trên VPS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
